@@ -1,4 +1,3 @@
-
 // SELECT ALL ELEMENTS
 const country_name_element = document.querySelector(".country .name");
 const total_cases_element = document.querySelector(".total-cases .value");
@@ -146,7 +145,7 @@ function axesLinearChart() {
           fill: false,
           borderColor: "#FFF",
           backgroundColor: "#FFF",
-          borderWidth: 0.4,
+          borderWidth: 1,
         },
         {
           label: "Recovered",
@@ -154,7 +153,7 @@ function axesLinearChart() {
           fill: false,
           borderColor: "#009688",
           backgroundColor: "#009688",
-          borderWidth: 0.3,
+          borderWidth: 1,
         },
         {
           label: "Deaths",
@@ -162,7 +161,7 @@ function axesLinearChart() {
           fill: false,
           borderColor: "#f44336",
           backgroundColor: "#f44336",
-          borderWidth: 0.3,
+          borderWidth: 1,
         },
       ],
       labels: formatedDates,
@@ -182,7 +181,6 @@ const monthsNames = [
   "Apr",
   "May",
   "Jun",
-  "July",
   "Aug",
   "Sep",
   "Oct",
