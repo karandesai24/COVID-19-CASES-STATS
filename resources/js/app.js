@@ -181,6 +181,7 @@ const monthsNames = [
   "Apr",
   "May",
   "Jun",
+  "July",
   "Aug",
   "Sep",
   "Oct",
